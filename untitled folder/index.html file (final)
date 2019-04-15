@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>BMGT 301 Website</title>
+  <meta charset="utf-8"/>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+  <link href='https://fonts.googleapis.com/css?family=Roboto:300,400,700' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" type="text/css" href="main.css">
+</head>
+<body>
+  <header class="container">
+    <div class="row">
+      <h1 id="myName">Austin Yescas</h1>
+      <nav class="col-sm-4">
+        <p class="topthreeparagraphs">BMGT289</p>
+        <p class="topthreeparagraphs">BMGT220</p>
+        <p class="topthreeparagraphs">BMGT466</p>
+      </nav>
+    </div>
+  </header>
+  <section class="jumbotron">
+    <div class="container">
+      <div class="row text-center">
+        <h2>BMGT301</h2>
+        <h3>Web Development</h3>
+        <a class="btn btn-primary" href="https://www.novaeuroparestaurant.com" role="button">Visit this cool website</a>
+      </div>
+    </div>
+  </section>
+  <section class="container">
+    <div class="row">
+      <figure class="col-sm-6">
+        <p id="firstfav">Guitar</p>
+        <img src="https://images.reverb.com/image/upload/s--fLEQJ-3U--/a_exif,c_limit,e_unsharp_mask:80,f_auto,fl_progressive,g_south,h_1600,q_80,w_1600/v1525281641/n9sqcinsb5t1mqrww9li.jpg"/>
+    	</figure>
+    	<figure class="col-sm-6">
+        <p id="seconfav">Fishing</p>
+        <img src="https://blog.finandfield.com/wp-content/uploads/2016/06/a26d988b-d23e-4f80-9a73-9a0be1e144f0.jpeg"/>
+      </figure>
+    </div>
+    <div class="row">
+      <figure class="col-sm-6">
+        <p id="thirdfav">Soccer</p>
+        <img src="
+https://cdn.arstechnica.net/wp-content/uploads/2018/10/GettyImages-1047272920-800x565.jpg"/>
+      </figure>
+      <figure class="col-sm-6">
+        <p id="fourthfav">Cooking</p>
+        <img src="https://cdn-image.foodandwine.com/sites/default/files/how-michelin-stars-effect-resaurants-ft-blog1017.jpg"/>
+      </figure>
+    </div>
+     </section>
+  <section class="container">
+    <h3 id="quotes"> Favorite Quotes
+    </h3>
+    <ol>
+    <li id="firstquote">"A man is known by his works. That I have heard at many a funeral."
+    </li>
+     <li id="secondquote">"If an architect makes a mistake, he grows ivy to cover it. If a doctor makes a mistake, he covers it with soil. If a cook makes a mistake, he covers it with some sauce and says it is a new recipe."
+    </li>
+    <li id="thirdquote">"There is nothing noble in being superior to your fellow man; true nobility is being superior to your former self."
+    </li>
+    <li id="fourthquote"> "Hard work beats talent, when talent doesn't work hard."
+      </li>
+    </ol>
+  </section>
+  <footer class="container">
+    <div class="row">
+      <p class="col-sm-4">&copy; 2019 BMGT 301</p>
+      <ul class="col-sm-8">
+        <li class="col-sm-1">
+          <img src="https://s3.amazonaws.com/codecademy-content/projects/make-a-website/lesson-4/twitter.svg">
+        </li>
+        <li class="col-sm-1">
+          <img src="https://s3.amazonaws.com/codecademy-content/projects/make-a-website/lesson-4/facebook.svg">
+        </li>
+        <li class="col-sm-1">
+          <img src="https://s3.amazonaws.com/codecademy-content/projects/make-a-website/lesson-4/instagram.svg">
+        </li>
+        <li class="col-sm-1">
+          <img src="https://s3.amazonaws.com/codecademy-content/projects/make-a-website/lesson-4/medium.svg">
+        </li>
+      </ul>
+    </div>
+  </footer>
+ </body>
+</html>
+
